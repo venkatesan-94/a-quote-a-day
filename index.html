@@ -7,8 +7,7 @@
 <body>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <div align="center">
-        <h1 style="color: #1a1a1a" id="quote1"></h1>
-        <h3 style="color: #1a1a1a" id="quote2"></h3>
+        <h1 style="color: #1a1a1a" id="quote"></h1>
     </div>
 
     <script>
@@ -36,8 +35,7 @@
         ];
 
         var randomNumber = Math.floor((Math.random() * 20) + 1);
-        document.getElementById('quote1').innerHTML = quoteArray[randomNumber - 1];
-        document.getElementById('quote2').innerHTML = quoteArray[randomNumber - 1];
+        document.getElementById('quote').innerHTML = quoteArray[randomNumber - 1];
     </script>
 </body>
 
